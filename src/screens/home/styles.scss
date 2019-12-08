@@ -1,0 +1,44 @@
+@import '../../scss/color.scss';
+
+body {
+  background-color: Black;
+}
+
+.content-circle {
+  align-content: flex-start;
+  background-color: $Cod_Gray;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1180px;
+}
+
+.content-information {
+  cursor: pointer;
+  margin: 10px 35px;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  display: flex;
+  height: 165px;
+  object-fit: cover;
+  opacity: 0.5;
+  width: 165px;
+}
+
+.text-artis {
+  color: $White;
+  font-size: 14px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
